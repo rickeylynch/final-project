@@ -19,3 +19,9 @@ li a:visited {
 li a:link{
     color: black;
 }
+.body-hawaii{
+    background-image: url(/IMG/ocean-screensaver.jpeg); background-position: fixed; background-repeat: no-repeat; background-size:auto;
+}
+.body-where{
+    background-image: url(/IMG/mountain.png); background-repeat: no-repeat; background-position: fixed;
+}
