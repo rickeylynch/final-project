@@ -20,8 +20,21 @@ li a:link{
     color: black;
 }
 .body-hawaii{
-    background-image: url(/IMG/ocean-screensaver.jpeg); background-position: fixed; background-repeat: no-repeat; background-size:auto;
+    background-image: url(/IMG/ocean-screensaver.jpeg); 
+    background-position: fixed; 
+    background-repeat: no-repeat; 
+    background-size:auto;
+}
+.blog-hawaii{
+    background-color: white;
+    width: 400px;
+    
+
+
+
 }
 .body-where{
-    background-image: url(/IMG/mountain.png); background-repeat: no-repeat; background-position: fixed;
+    background-image: url(/IMG/mountain.png); 
+    background-repeat: no-repeat; 
+    background-position: fixed;
 }
