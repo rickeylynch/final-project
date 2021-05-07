@@ -1,7 +1,7 @@
-body head{
-    margin: 0%;
-    padding: 0%;
-}
+html body{
+    margin: 0;
+    padding: 0;
+  }
 ul{
     list-style-type: none;
     margin: 0%;
@@ -19,22 +19,43 @@ li a:visited {
 li a:link{
     color: black;
 }
+.navbar{
+    width: 500px;
+    background-color: black;
+    background-size: contain;
+    opacity: 75%;
+    color: white;
+
+
+}
+.navbar a:hover{
+    background-color: red ;
+}
 .body-hawaii{
     background-image: url(/IMG/ocean-screensaver.jpeg); 
     background-position: fixed; 
-    background-repeat: no-repeat; 
+    background-repeat:no-repeat; 
     background-size:auto;
 }
 .blog-hawaii{
     background-color: white;
     width: 400px;
-    
-
-
-
+    padding: 0px 20px 5px 10px;
 }
+.whale-watching{
+    border-style:solid;
+    border-width: 5px;
+    padding: 0px;
+    margin: 5px 5px;
+    width: 250px;
+}
+iframe{
+    float:right;
+}
+
 .body-where{
     background-image: url(/IMG/mountain.png); 
     background-repeat: no-repeat; 
     background-position: fixed;
 }
+/* need to see if background img is too small or if there is display setting I need to change */

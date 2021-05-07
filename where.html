@@ -9,21 +9,34 @@
     <title>Where to Next?</title>
 </head>
 <body class="body-where">
-    <header class="header-where">
+    <header class="header">
         On the Move!
     </header>
 
-    <div class ="navbar-where">
+    <div class ="navbar">
         <nav>
             <a href ="home.html" target="_blank">Home</a>
             <a href="Hawaii.html" target="_blank">Hawaiian Adventure</a>
             <a href="where.html" target="_blank">Where To?</a>
         </nav>
     </div>
-
-
-
-
+    <div class="container">
+        <form>
+            <label for="fname">First name:</label>
+            <br>
+            <input type="text" id="fname" name="fname">
+            <br>
+            <label for="lname">Last name:</label>
+            <br>
+            <input type="text" id="lname" name="lname">
+            <br>
+            <br>
+            <label for="suggestions">Suggestions</label>
+            <textarea id="suggestions" name="suggestions" placeholder="Where should I go next?" style="width:fit-content"></textarea>
+          </form>
+          <!-- need to change button to delete information in form once clicked -->
+          <button type="button" onclick="alert('Thank you for your recommendation!')">Submit</button>
+      </div>
 
     <footer>
         <ul>
