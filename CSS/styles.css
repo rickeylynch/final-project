@@ -36,10 +36,10 @@ li a:link{
 }
 /* Hawaii background picture styling  */
 .body-hawaii{
-    background-image: url(/IMG/sunset-rays.jpeg); 
+    background-image: url(/IMG/hawaii-sunset-ocean.jpeg); 
     background-position: fixed; 
     background-repeat:no-repeat; 
-    background-size:auto;
+    background-size: 1300px;
 }
 /* Hawaii text "blog" styling  */
 .blog-hawaii{
