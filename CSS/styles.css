@@ -21,24 +21,37 @@ li a:visited {
     color: red;
 }
 li a:link{
-    color: black;
+    color: goldenrod;
 }
  /*  */
 
  .header{
      width: 100%;
-     background-image: url("/IMG/plane.png");
+     background-image: url('/IMG/plane.png');
 
  }
 
 .navbar{
-    width: 100%;
-    background-color: black;
-    background-size: cover;
+    width: 400px;
+    background-color: white;
+    opacity: 30%;
     color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
 }
-.navbar a:hover{
-    background-color: red ;
+.navbar a{
+    margin-left: 45px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    opacity: 50%;
+}
+.navbar a:visited {
+    color: blue;
+}
+.navbar a:link{
+    color: black;
 }
 /* Hawaii background picture styling  */
 .body-hawaii{
@@ -52,7 +65,8 @@ li a:link{
     background-color: white;
     width: 400px;
     padding: 0px 20px 5px 10px;
-    border: solid black 3px;
+    border: groove 3px; 
+    border-radius: 9px;
 }
 
 /* Whale watching picture link styling  */
