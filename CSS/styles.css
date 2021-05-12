@@ -27,8 +27,10 @@ li a:link{
 
  .header{
      width: 100%;
-     background-image: url('/IMG/plane.png');
-
+     padding: 10px;
+     background: gray;
+     text-transform: uppercase;
+     font-size: 50px;
  }
 
 .navbar{
@@ -53,6 +55,20 @@ li a:link{
 .navbar a:link{
     color: black;
 }
+
+
+h1{
+    font-size: 50pt;
+}
+
+#logo{
+    width: 5%;
+    float: left;
+    background-color: inherit;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
 /* Hawaii background picture styling  */
 .body-hawaii{
     background-image: url(/IMG/hawaii-sunset-ocean.jpeg); 
