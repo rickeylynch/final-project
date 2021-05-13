@@ -1,82 +1,87 @@
-html body{
+html body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-  }
-.text{
+}
+
+.text {
     font-family: 'Source Sans Pro', sans-serif;
 }
-  /* This is the styling for the footer  */
-.footer{
-    background:#000;
-    padding:30px 0px;
+
+/* This is the styling for the footer  */
+.footer {
+    background: #000;
+    padding: 30px 0px;
     font-family: 'Play', sans-serif;
-    text-align:center;
+    text-align: center;
     width: 100%;
     bottom: 0px;
     clear: both;
-    }
-    
-    .footer .row{
-    width:100%;
-    margin:1% 0%;
-    padding:0.6% 0%;
-    color:gray;
-    font-size:0.8em;
-    }
-    
-    .footer .row a{
-    text-decoration:none;
-    color:gray;
-    transition:0.5s;
-    }
-    
-    .footer .row a:hover{
-    color:#fff;
-    }
-    
-    .footer .row ul{
-    width:100%;
-    }
-    
-    .footer .row ul li{
-    display:inline-block;
-    margin:0px 30px;
-    }
-    
-    .footer .row a i{
-    font-size:2em;
-    margin:0% 1%;
-    }
-    
-    @media (max-width:720px){
-    .footer{
-    text-align:left;
-    padding:5%;
-    }
-    .footer .row ul li{
-    display:block;
-    margin:10px 0px;
-    text-align:left;
-    }
-    .footer .row a i{
-    margin:0% 3%;
-    }
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+    .footer {
+        text-align: left;
+        padding: 5%;
     }
 
- /* header styling */
- .header{
-     width: 100%;
-     padding: 10px;
-     background: black;
-     text-transform: uppercase;
-     text-align: center;
-     font-size: 50px;
-     font-family: 'Oswald', sans-serif;
-     color: white;
- }
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
+    }
+}
+
+/* header styling */
+.header {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
 /* navbar styling */
-.navbar{
+.navbar {
     width: 400px;
     background-color: grey;
     opacity: 40%;
@@ -85,28 +90,33 @@ html body{
     margin-right: auto;
     padding: 3px;
     font-family: 'Oswald', sans-serif;
-    position:sticky;
+    position: sticky;
 }
-.navbar a{
+
+.navbar a {
     margin-left: 45px;
     text-decoration: none;
 }
+
 .navbar a:hover {
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
+
 .navbar a:visited {
     color: blue;
 }
-.navbar a:link{
+
+.navbar a:link {
     color: black;
 }
-.clearfloat{
+
+.clearfloat {
     clear: both;
 }
 
 
 /* logo inside of header styling */
-#logo{
+#logo {
     width: 5%;
     float: left;
     margin-left: 10px;
@@ -115,13 +125,14 @@ html body{
 
 /* ------homepage styling------ */
 /* index page styling */
-h1{
+h1 {
     font-size: 40pt;
     color: white;
     width: 100%;
 
 }
-.blog-home{
+
+.blog-home {
     width: 40%;
     border: black double;
     border-radius: 3px;
@@ -129,11 +140,13 @@ h1{
     background-color: white;
 
 }
-.body-home{
+
+.body-home {
     background-image: url(/IMG/colorful.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .map {
     float: right;
 }
@@ -141,27 +154,28 @@ h1{
 
 /* -----hawaii styling-------- */
 /* Hawaii background picture styling  */
-.body-hawaii{
-    background-image: url(/IMG/hawaii-sunset-ocean.jpeg); 
-    background-position: fixed; 
-    background-repeat:no-repeat; 
+.body-hawaii {
+    background-image: url(/IMG/hawaii-sunset-ocean.jpeg);
+    background-position: fixed;
+    background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* Hawaii text "blog" styling  */
-.blog-hawaii{
+.blog-hawaii {
     background-color: white;
     width: 400px;
     padding: 0px 20px 5px 10px;
-    border: groove 3px; 
+    border: groove 3px;
     border-radius: 9px;
-    float:right;
+    float: right;
     clear: both;
 }
 
 /* Whale watching picture styling  */
-.whale-watching{
+.whale-watching {
     background-image: url(/IMG/whale-watching.jpeg);
-    border-style:outset;
+    border-style: outset;
     border-color: white;
     border-width: 5px;
     padding: 0px;
@@ -172,37 +186,43 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    float:right;
+    float: right;
     clear: both;
 }
+
 /* Text inside whale watching picture (hero) styling */
-.whale-text{
+.whale-text {
     text-align: center;
     color: white;
     padding: 5px;
     font-size: 20px;
 
 }
+
 /* YouTube video styling  */
-.video{
+.video {
     margin-top: 100px;
     border-radius: 2px;
 }
 
 /* Where to/suggestion page background img styling  */
-.body-where{
-    background-image: url(/IMG/mountain.png); 
-    background-repeat: no-repeat; 
+.body-where {
+    background-image: url(/IMG/mountain.png);
+    background-repeat: no-repeat;
     background-size: cover;
 }
-.container{
+
+.container {
     background-color: lightgray;
     width: 300px;
     border-radius: 4px;
     padding: 4px;
     margin: 20px;
 }
-input[type=text], select, textarea {
+
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -211,4 +231,4 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
+}
