@@ -186,6 +186,7 @@ h1{
 /* YouTube video styling  */
 .video{
     margin-top: 100px;
+    border-radius: 2px;
 }
 
 /* Where to/suggestion page background img styling  */
@@ -198,6 +199,8 @@ h1{
     background-color: lightgray;
     width: 300px;
     border-radius: 4px;
+    padding: 4px;
+    margin: 20px;
 }
 input[type=text], select, textarea {
     width: 100%;
