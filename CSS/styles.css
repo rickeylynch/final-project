@@ -1,6 +1,7 @@
 html body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
   }
 .text{
     font-family: 'Source Sans Pro', sans-serif;
@@ -77,8 +78,8 @@ html body{
 /* navbar styling */
 .navbar{
     width: 400px;
-    background-color: white;
-    opacity: 30%;
+    background-color: grey;
+    opacity: 40%;
     color: white;
     margin-left: auto;
     margin-right: auto;
@@ -116,17 +117,24 @@ html body{
 /* index page styling */
 h1{
     font-size: 40pt;
+    color: white;
+    width: 100%;
+
 }
 .blog-home{
-    width: 50%;
-    border: black dashed;
+    width: 40%;
+    border: black double;
+    border-radius: 3px;
+    padding: 3px;
+    background-color: white;
+
 }
 .body-home{
     background-image: url(/IMG/colorful.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-iframe {
+.map {
     float: right;
 }
 
@@ -146,6 +154,8 @@ iframe {
     padding: 0px 20px 5px 10px;
     border: groove 3px; 
     border-radius: 9px;
+    float:right;
+    clear: both;
 }
 
 /* Whale watching picture styling  */
@@ -162,22 +172,40 @@ iframe {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    float:right;
+    clear: both;
 }
 /* Text inside whale watching picture (hero) styling */
 .whale-text{
     text-align: center;
     color: white;
     padding: 5px;
+    font-size: 20px;
 
 }
 /* YouTube video styling  */
-/* iframe{
-    float:right;
-} */
+.video{
+    margin-top: 100px;
+}
+
 /* Where to/suggestion page background img styling  */
 .body-where{
     background-image: url(/IMG/mountain.png); 
     background-repeat: no-repeat; 
-    background-position: fixed;
     background-size: cover;
 }
+.container{
+    background-color: lightgray;
+    width: 300px;
+    border-radius: 4px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
